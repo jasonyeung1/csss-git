@@ -5,7 +5,6 @@ Date: 25th Oct 2015
 '''
 import random
 
-
 '''
 Purpose of the function:
 Given a array of integers, return the length of the array.
@@ -14,7 +13,6 @@ Eg. Input: [1, 2, 3, 4, 5, 6, 7, 8]
 '''
 def amountInArray(array):
     return len(array)
-
 
 '''
 Purpose of the function:
@@ -36,9 +34,6 @@ Eg. Input: [1, 2, 3, 4, 5, 6, 7, 8]
 '''
 def reverseArray(array):
     return list(reversed(array))
-        
-
-
 
 '''
 Purpose of the function:
@@ -56,10 +51,6 @@ def shuffleArray(array):
             if (len(new_array) == len(array)):
                 done = True
     return new_array
-        
-
-
-
 
 #MAIN
 array = [1, 2, 3, 4, 5, 6, 7, 8]

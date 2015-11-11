@@ -51,7 +51,7 @@ def shuffleArray(array):
     new_array = []
     while (not done):
         rand = random.randint(0, len(array))
-        if (not rand in array):
+        if ((rand in array) and (not rand in new_array)):
             new_array.append(rand)
             if (len(new_array) == len(array)):
                 done = True
